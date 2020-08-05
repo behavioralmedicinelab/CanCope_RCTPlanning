@@ -134,9 +134,9 @@ dimp <- parlmice(
   maxit = 100,
   predictorMatrix = pmat)
 
-saveRDS(dimp, file = "dimp.RDS", compress = "xz")
+saveRDS(dimp, file = "dimp_aim1.RDS", compress = "xz")
 } else {
-  dimp <- readRDS("dimp.RDS")
+  dimp <- readRDS("dimp_aim1.RDS")
 }
 
 ################################################################################
